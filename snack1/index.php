@@ -11,11 +11,46 @@ Olimpia Milano - Cantù | 55-60
 */
 
 
-$partite = [
-
+$matches = [
+	[
+		'Milano',
+		'Cantù',
+		'55',
+		'60',
+	],
+	[
+		'Brescia',
+		'Genova',
+		'100',
+		'20',
+	],
+	[
+		'Livorno',
+		'Napoli',
+		'75',
+		'33',
+	],
+	[
+		'Bologna',
+		'Bergamo',
+		'55',
+		'0',
+	],
+	[
+		'Campobasso',
+		'Ancona',
+		'80',
+		'68',
+	],
 ];
 
-echo ("ciao")
+
+//var_dump($matches);
+
+foreach ($matches as $match) {
+	//var_dump ($match);
+	echo ("$match[0]-$match[1]  |  $match[2] - $match[3]  <br>");
+}
 
 ?>
 
@@ -23,7 +58,7 @@ echo ("ciao")
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<title>Snack1</title>
 </head>
 <body>
